@@ -410,9 +410,13 @@ h6, .h6 {
 
 .display-3 {
   font-size: 4.5rem;
-  font-weight: 300;
+  font-weight: bold;
   line-height: 1.2;
+  color: #ffffff;
+  text-shadow: 2px 2px #000;
 }
+
+
 
 .display-4 {
   font-size: 3.5rem;
@@ -3072,6 +3076,7 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
+  margin-top: 10px;
   border-radius: 0.3rem;
 }
 
@@ -4934,6 +4939,15 @@ tbody.collapse.show {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+  background-image: url(../img/programming.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 1px 1px #000;
 }
 
 @media (min-width: 576px) {
